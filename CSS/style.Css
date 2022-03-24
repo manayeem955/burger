@@ -1,0 +1,119 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  /* Global Css */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   font-family: 'Bebas Neue', cursive;
+}
+
+.container{
+     width: 90%;
+   
+     margin: auto;
+}
+/* Header Part */
+header{
+    width: 100%;
+    float: left;
+ background: url(../IMG/herobackground.png) no-repeat center;
+
+ 
+}
+.main-header{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding: 10px ;
+
+}
+.logo-part{
+        width: 50%;
+        float: left;
+        padding: 10px;
+}
+.logo-part-img{
+
+}
+.menu-part{
+    width: 50%;
+    float: left;
+
+}
+.delivery{
+        width: 100%;
+        float: left;
+        text-align: end;
+        
+}
+.delivery img{
+    margin-right: 20px;
+
+}
+.delivery span{
+    font-size: 13px;
+    font-family: sans-serif;
+
+}
+.menu{
+    width: 100%;
+    float: left;
+}
+.menu ul{
+    text-align: end;
+
+}
+.menu li{
+   list-style:none;
+   display: inline-block;
+   margin-top: 15px;
+}
+.menu a{
+  text-decoration: none;
+  letter-spacing: 3px;
+margin-left: 23px;
+color: black;
+}
+/* Hero part */
+
+.hero{
+        width: 100%;
+        float: left;
+}
+.hero-writing-part{
+        width: 50%;
+        float: left;
+        padding-top: 50px;
+}
+
+.hero-heading-box{
+font-size: 17px;
+font-weight: 300;
+border: 2px dashed;
+display: inline-block;
+padding: 5px 20px;
+
+}
+.hero-heading{
+   color: #3d2514;
+   text-shadow: 2px 2px #fff;
+   font-size: 100px;
+   margin: 26px 0px -35px 0px ;
+
+}
+.hero-subheading{
+    color: #3d2514;
+    text-shadow: 2px 2px #fff;
+    font-size: 65px;
+}
+.hero-img-part{
+    width: 50%;
+    float: left;
+}
+.hero-img-part img{
+     width: 100%;
+
+}
+
